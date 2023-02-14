@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Education from "./components/Education";
+import Navi from "./components/Navbar";
+import Head from "./components/Head";
+import Biodata from "./components/Biodata";
 
-function App() {
+const CV = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="CV">
+      <Navi />
+      <Head />
+
+      <h2>Tentang saya</h2>
+      <Biodata />
+      
+      <h2>Pendidikan</h2>
+      <Education />
+
+      <h2>Pengalaman Magang</h2>
+
     </div>
   );
-}
+};
 
-export default App;
+export default CV;
