@@ -2,7 +2,7 @@
 const Head = () => {
     return (
         <div className="Header">
-            <h1>Resume About Dani Ahnaf Falih</h1>
+            <h2>Resume About Dani Ahnaf Falih</h2>
         </div>
     )
 };

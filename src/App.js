@@ -3,6 +3,9 @@ import Education from "./components/Education";
 import Navi from "./components/Navbar";
 import Head from "./components/Head";
 import Biodata from "./components/Biodata";
+import Organization from "./components/Organzation";
+import Skill from "./components/Skill";
+
 
 const CV = () => {
   return (
@@ -16,7 +19,12 @@ const CV = () => {
       <h2>Pendidikan</h2>
       <Education />
 
-      <h2>Pengalaman Magang</h2>
+      <h2>Organisasi</h2>
+      <Organization />
+
+      <h2>Skills, Achievements & Other Experience</h2>
+      <Skill />
+
 
     </div>
   );
